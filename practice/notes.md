@@ -31,3 +31,8 @@ output: 13
 Z = fun(H) -> H + 4 end.
 main:call(Z, 10).
 output: 14
+
+testconcat(L) when is\*list(L) ->
+lists:concat(L);
+testconcat(\_) ->
+hiba.
